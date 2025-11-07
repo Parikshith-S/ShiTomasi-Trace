@@ -63,7 +63,7 @@ def find_crack_features(image_path, threshold_val=100, max_corners=500, quality=
         print("No corners found. Try adjusting parameters (especially --thresh).")
 
     # 5. Save the final image
-    # Extract original filename (e.g., "s62.jpg")
+    # Extract original filename (e.g., "s81.jpg")
     base_name = image_path.split('/')[-1].split('\\')[-1]
     output_filename = f"detected_{base_name}"
 
